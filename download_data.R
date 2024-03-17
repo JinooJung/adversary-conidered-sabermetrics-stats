@@ -3,7 +3,7 @@ library(ggplot2)
 library(baseballr)
 
 
-# User Interface
+###### User Interface ######
 # average will be calculated by event1/(event1+event2), event that is not in event1 or event2 will be ignored
 start_date <- as.Date("2023-01-01")
 end_date <- as.Date("2023-12-31")
